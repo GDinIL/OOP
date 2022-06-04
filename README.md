@@ -3,7 +3,7 @@
 |:------------|:-------------:|:---------:|----------:|
 |Сотрудник(Colleague) | ColleagueID | int    |  Принять автомодиль в ремонт |
 |                     | last_name   | string |  Посмотреть вид работы       |
-|                     | first_name  | string |  Посмотреть сроки работы бьои|
+|                     | first_name  | string |  Посмотреть сроки работы     |
 |                     | middle_name | string |  Посмотреть срок ремонта     |
 |                     | phone       | string |  Вернуть автомобиль на прокат|
 
@@ -14,6 +14,7 @@
 |                  | last_name    | string |  Проверка пусткое поле                     |
 |                  | first_name   | string |  Приостановить поездку                     |
 |                  | middle_name  | string |  Отчет о состоянии автомобиля после поездки|
+|                  | pasport      |        |                                            |
 |                  | phone        | string |                                            | 
 
 
@@ -48,4 +49,14 @@
 |                             | start_place     | string |                                    |
 |                             | finish_place    | string |                                    |
 |                             | defect          | string |                                    | 
+
+UML-диаграмма:
+![UML-диаграмма](https://user-images.githubusercontent.com/102414628/172011155-659c8c09-b93b-4665-971c-5ac57615a13b.PNG)
+
+Классы и диаграммы:
+![Классы и методы](https://user-images.githubusercontent.com/102414628/172013522-fa6f85f6-7d41-4323-9120-7d063c271804.PNG)
+
+
+
+
 
