@@ -1,6 +1,62 @@
 # OOP
-lsjdbv|lskdnv|lksdnv
-:-----|:----:|:-------:
-ksjbvs|skdvk|skjdb
-skdbvs|jkfdbv|lsdnv
-lsdn|sljb|lskd|
+| Класс      | Атрибуты         | Значения  |       Методы      |
+| ------------- |:-------------:| -----:|  -----:  |
+| Сотрудник(Worker)    | workerID| int |     Принять самокат в ремонт |
+|     | last_name     |   string |                    Посмотреть вид работы|
+| | first_name   |    string|Посмотреть сроки работы| 
+| |   middle_name            |    string   |        Подписать договор     |
+| |      tel         |      string |        Отдать самокат        |
+
+
+| Класс      | Атрибуты         | Значения  |       Методы      |
+| ------------- |:-------------:| -----:|  -----:  |
+|  КлиентClient)    | сlientID| int |    Сделать фото до|
+|     | last_name     |   string |                     Забронировать |
+| | first_name   |    string|Оплатить| 
+| |   middle_name            |    string   |        Поставить на паузу     |
+| |      tel         |      string |        Сделать фото после    |
+
+
+
+
+
+
+
+
+
+
+
+|  Класс    |      Атрибуты    | Значения  |Методы|
+| ------------- |:-------------:| -----:|  -----:  |        
+|   Журнал техобслуживания(Maintenance_log)| workerID|  int     |Показать стоимость |
+|  |     scooterID |   int  |       Показать перечень неисправностей    |
+| |   take_time           |    string  |          Показать дату выдачи |
+| |     recoil_time        |      string |     Запросить подпись   |
+| |     repair_work       |      string |     Показать вид работы   |
+
+
+
+|  Класс    |      Атрибуты    | Значения  |Методы|
+| ------------- |:-------------:| -----:|  -----:  |    
+|  Самокат(Scooter)  | scootersID | int |     Предложить закрепить телефон     |
+|     |   belay_cost   | string |               Отследить по GPS    |
+| |   сost_rental          |    string   |           Показать заряд батареи   |
+| |     battery       |      string |           Показать скорость           |
+| |        |                        |           Показать режимы          |
+
+
+
+|  Класс    |      Атрибуты    | Значения  |Методы|
+| ------------- |:-------------:| -----:|  -----:  |  
+|   Детали заказа(Order_detail)  | orderID| int |Показать текущее время|
+|     |    ScooterID    | int |Предложить поставить на паузу|
+|  |     workerID |   int  |Показать текущую стоимость|
+| |   clientID          |    int  |Показать номер самоката|
+| |     start_time       |      time|Предложить промокод|
+| |     end_time    |      time |
+| |   start_place         |    string   |
+| |     finish_place       |      string |
+| |     defect   |      string |
+| |     defect_specification      |      string |
+| |     fine  |      string |
+
