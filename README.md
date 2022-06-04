@@ -14,7 +14,7 @@
 |                  | last_name    | string |  Проверка пусткое поле                     |
 |                  | first_name   | string |  Приостановить поездку                     |
 |                  | middle_name  | string |  Отчет о состоянии автомобиля после поездки|
-|                  | pasport      |        |                                            |
+|                  | pasport      | int    |                                            |
 |                  | phone        | string |                                            | 
 
 
